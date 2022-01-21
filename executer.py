@@ -21,5 +21,5 @@ while True:
     else:
         countchop += 1
 
-    time.sleep(4.3)
+    time.sleep(4.4)
     
