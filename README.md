@@ -17,5 +17,5 @@ git clone https://github.com/gonesteves/minecord-farmer.git
 
 * Execute the script with 
 ```bash
-py executer.py
+py bot.py
 ```
