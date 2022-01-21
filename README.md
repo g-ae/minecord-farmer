@@ -3,6 +3,7 @@
 Script written to farm easily with the bot Minecord.
 This bot will do all the human verifications.
 May stop working if the devs change bot verification.
+Use at your own risk !
 
 ### Setup
 * Clone this repo
