@@ -14,7 +14,7 @@ git clone https://github.com/gonesteves/minecord-farmer.git
 
 * Inside config.json file :
   * Write your account's token
-  * Write the channel in which the bot will be executed
+  * Write the id the channel in which the bot will be executed
 
 * Execute the script with 
 ```bash
