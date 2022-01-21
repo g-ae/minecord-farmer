@@ -4,6 +4,8 @@ import json
 
 countfight = 8   # chaque 40 secs
 countchop = 12   # chaque 60 secs
+url = ""
+jsonD = {}
 
 def retrieve_last_message():
     try:
@@ -12,7 +14,7 @@ def retrieve_last_message():
         verif(response[0]['content'])
         return response[0]
     except:
-        print('The token or channel id is wrong.')
+        print('The token or channel id is wrong. Stopping...')
         exit()
 
 def verif(content):
