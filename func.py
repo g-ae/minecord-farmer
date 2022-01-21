@@ -1,8 +1,8 @@
 import requests
 import json
 
-token = "token"
-channelid = "channel id";
+token = "token"             # write own discord token
+channelid = "channel id";   # id of the channel where you'll be executing this
 url = f'https://discord.com/api/v8/channels/{channelid}/messages'
 headers = {
     'Authorization': token
@@ -19,7 +19,6 @@ def verif(content):
         verif = content[content.find('`')+1:content.find('`.\n')]
         send(f'm!verify {eval(verif)}')
     elif "Please complete the verification first" in content:
-        print("ptn c'est la merde")
         completeVerif()
 
 def completeVerif():
