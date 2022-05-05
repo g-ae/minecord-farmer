@@ -3,7 +3,7 @@
 Script written to farm easily with the bot Minecord.
 This bot will do all the human verifications.
 May stop working if the devs change bot verification.
-Use at your own risk !
+Use at your own risk, I am not responsible if you get banned from using their bot !
 
 ### Setup
 * Clone this repo
@@ -15,6 +15,7 @@ git clone https://github.com/gonesteves/minecord-farmer.git
 * Inside config.json file :
   * Write your account's token
   * Write the id the channel in which the bot will be executed
+  * Write the bot's prefix in your guild (default is "m!")
 
 * Execute the script with 
 ```bash

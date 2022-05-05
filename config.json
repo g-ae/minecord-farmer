@@ -1,4 +1,5 @@
 {
     "token": "token",
-    "channelId": "channel id"
+    "channelId": "channel id",
+    "prefix": "m!"
 }
