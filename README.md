@@ -1,4 +1,4 @@
-# Minecord farmer
+# Minecord farmer DOESN'T WORK ANYMORE (maybe i'll update one day)
 
 Script written to farm easily with the bot Minecord.
 This bot will do all the human verifications.
